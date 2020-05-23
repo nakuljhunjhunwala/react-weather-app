@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
-
+import './App.css'
 
 function App() {
 
 const[search , setSearch] = useState("");
 const [weather , setWeather] = useState({});
-const baseURL = "http://api.openweathermap.org/data/2.5/"
+const baseURL = "https://api.openweathermap.org/data/2.5/"
 
 function findWeather(e) {
 
